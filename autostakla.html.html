@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Arvo|Audiowide|Black+Ops+One|Open+Sans:300|Righteous|Russo+One" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+
+<title>Sale Autostakle</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+   font-family: 'Poppins', sans-serif;
+   
+	
+    margin:0;
+}
+
+
+.header {
+    padding: 30px ;
+    text-align: center;
+   
+    color: white;
+	background-image:url('https://scontent.fbeg6-1.fna.fbcdn.net/v/t1.0-9/46508070_1180797168735219_8025288534518661120_n.jpg?_nc_cat=111&_nc_ht=scontent.fbeg6-1.fna&oh=9501109641ed269980360370af580004&oe=5C726A78' );
+
+	background-repeat:repeat-x;
+		
+	
+	
+	
+}
+
+
+.header h1 {
+    font-size: 140px;
+	text-align:left;
+	font-weight:900;
+	font-family: 'Black Ops One', cursive;
+  background: -webkit-linear-gradient(#333,#eee, #d6d7d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position:relative;
+  bottom:98px;
+  margin-bottom:50px;
+}
+.autostakla {
+                position:absolute;
+                top:180px;
+                left:80px;				
+               color:white;
+               font-size:33px;
+			   font-weight:900;
+			   font-family: 'Russo One', sans-serif;
+                        }
+			   
+			   
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    width:100%;
+	margin:10px 0;
+	
+	
+    top: 260px;
+    left:0;
+
+
+	background-image:url(' https://scontent.fbeg6-1.fna.fbcdn.net/v/t1.0-9/46508795_1180997242048545_3619860318957600768_n.jpg?_nc_cat=102&_nc_ht=scontent.fbeg6-1.fna&oh=625fe1c0a96f2b18d5c29fda0562a0ce&oe=5C7DC56F ');
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 29px 20px;
+    text-decoration: none;
+	
+	
+	
+	
+	
+}
+
+
+
+.navbar a.right {
+    float: right;
+	
+}
+
+
+.navbar a:hover {
+    background-color: rgba(0,0,0,0.5);
+    color:orange ;
+	font-weight:800;
+	
+}
+
+
+.navbar a.active {
+    background:linear-gradient(to bottom,#ffffcc,#ffad83,#ffa076);
+    color: #000a16;
+	font-weight:800;
+	
+}
+
+.desno {
+		 float:right;
+		 }
+
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.fa {
+  padding: 9px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  position:absolute;
+  top:150px;
+  
+}
+
+.fa-facebook:hover {
+    color:white;
+    background-color:#4267b2;
+}
+
+.fa-facebook {
+  background: orange;
+  color: #000a16;
+  position:absolute;
+  right:449px;
+  top:175px;
+  
+}
+
+
+.fa-instagram {
+  background: orange;
+  color: #000a16;
+  position:absolute;
+  right:405px;
+  top:175px;
+}
+
+
+
+.fa-instagram:hover {
+  background:linear-gradient(to bottom,purple,deeppink,orange);
+  color: white;
+}
+.leftcolumn {   
+    float: left;
+    width: 75%;
+	padding:10;
+	margin-top:0;
+	
+	
+		
+}
+
+
+     
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding-right:0;
+	margin-right:0;
+	
+	 
+}
+
+
+
+.card {
+    background-color: white;
+    padding:10px;
+	margin-top:10px;
+	margin-bottom:10x;
+
+   
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer {
+    padding: 80px;
+	position:absolute;
+    text-align: center;
+    background-image:url(' https://scontent.fbeg6-1.fna.fbcdn.net/v/t1.0-9/46508795_1180997242048545_3619860318957600768_n.jpg?_nc_cat=102&_nc_ht=scontent.fbeg6-1.fna&oh=625fe1c0a96f2b18d5c29fda0562a0ce&oe=5C7DC56F ');
+  width:100%;
+	   
+	
+}
+
+.blink_me {
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+	color:red;
+  }
+}
+
+
+.clear{clear: left;}
+.slicka { position:relative;
+          botttom:2px;
+		  }
+		  
+
+	
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+	p {
+		font-size:17px;
+		}
+
+	.slider {
+  max-width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  position: absolute;
+  left:320px;
+  height:300px;
+  width:450px;
+ 
+ 
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  left:140px;
+  bottom:327px;
+   height:300px;
+  width:450px;
+}
+.slide1 {
+  background: url(https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/37416581_761400707317525_5921478149798887424_n.jpg?_nc_cat=102&_nc_ht=scontent.ftzl1-1.fna&oh=7f19a6e39424da7bac9cb8e40ba22112&oe=5C8181EF
+  )no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url(https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/29216041_662577103866553_6479158405353263703_n.jpg?_nc_cat=109&_nc_ht=scontent.ftzl1-1.fna&oh=5b5c01c63564f6b8250ab02ee0ce86c0&oe=5C65E5EA
+  )no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/26731614_631331853657745_7295093498697162320_n.jpg?_nc_cat=109&_nc_ht=scontent.ftzl1-1.fna&oh=71af6163af3c07061cab200442890397&oe=5C6B1EC5  )no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+
+.slide4 {
+    background: url(  https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/29176896_662014083922855_6768043883122366879_n.jpg?_nc_cat=103&_nc_ht=scontent.ftzl1-1.fna&oh=1093008f9a4da871c04fd7b9f803f533&oe=5C3BF91C  )no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+
+.slide5 {
+    background: url( https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/20663931_549484355175829_1604780701682753132_n.jpg?_nc_cat=102&_nc_ht=scontent.ftzl1-1.fna&oh=0c7e7e6ce0a5eef121f3659633a74642&oe=5C660063   )no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+
+
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}	
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>SALE</h1>
+  <a class="btn-floating pulse" style="position:absolute;top:63px;right:450px;background-color:orange;border-radius:50%;width:40px; font-size:25px; padding:0 9px;"> <i style="color:#000a16;position:relative;top:3px;" class="material-icons">call</i></a>
+ <a class="btn-floating pulse" style="position:absolute;top:123px;right:450px;background-color:orange;border-radius:50%;width:40px; font-size:25px; padding:0 9px;"><i style="color:#000a16;position:relative;top:4px;" class="material-icons">location_on</i></a>
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+       
+ <span style="position:absolute;top:65px;left:920px;font-size:22px;">  065 600 328 </span>
+ <span style="position:absolute;top:130px;left:920px;font-size:19px;"> Mučenika Romanovih 54, Bijeljina  </span>
+  <span style="position:absolute;top:185px;right:280px;font-size:19px;"> Pratite nas </span>
+ <div class="autostakla">
+ auto-stakla
+
+ </div>
+
+
+<div class="navbar">
+  <a href="#" class="active">Početna</a>
+  <a href="#">O nama</a>
+  <a href="#">Usluge</a>
+  <a href="#">Kontakt</a>
+    <a href="#">Kako do nas?</a>
+  <a href="#" class="right">Kontakt</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Provjerite zašto smo lideri u regiji!</h2>
+      <h3 style="color:gray;" >Vršimo ugradnju, Reparacije, kao i prodaju u svim gradovima! <br>
+	  <span  class="blink_me" style="color:red;">  Dolazimo na vašu adresu po istoj cijeni, bilo gdje u BiH. Garancija je 5 godina!     </span>                                                                               </h3>
+	  </h3>
+	  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/45141937_864315827026012_4176796923027521536_n.jpg?_nc_cat=104&_nc_ht=scontent.ftzl1-1.fna&oh=26c45e1b584e71cf99e684a282b28b95&oe=5C804280  " alt="stakla" style="height:300px;width:450px;" >
+      <div class='slider' style="margin-bottom:20px;">
+  <div class='slide1'></div>
+  <div class='slide2'></div>
+  <div class='slide3'></div>
+</div>
+
+
+     
+     
+    </div>
+    <div class="card">
+      <h2>Šoferšajbne za sve vrste vozila</h2>
+      <h3 style="color:gray;">Auto-stakla ''Sale'' je specijalizovano preduzeće sa višegodišnjim iskustvom. Bavimo se prodajom, zamjenom i reparacijom autostakala na svim vrstama automobila, kao i stakala za autobuse, kamione i građevinske mašine.
+</h3>
+     
+    <div class="clear">  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/19511117_526050714185860_8256420293264530134_n.jpg?_nc_cat=104&_nc_ht=scontent.ftzl1-1.fna&oh=f49f628d8ea1c0235303b77a0ae1fc32&oe=5C879B4C  " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;padding-left:10px;" >
+          <img src=" https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/19437374_527372154053716_8371618856812520009_n.jpg?_nc_cat=101&_nc_ht=scontent.ftzl1-1.fna&oh=0b1ba0b1763f15664bf53c666a52881a&oe=5C7A7A4B " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+		  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/25507750_615684908555773_3658916743631206488_n.jpg?_nc_cat=102&_nc_ht=scontent.ftzl1-1.fna&oh=34f06b383c899530667b791a6b8cab6a&oe=5C7535CB  " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+		  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/43586565_842056992585229_5080812776339800064_n.jpg?_nc_cat=105&_nc_ht=scontent.ftzl1-1.fna&oh=8bb8a0fd2b3722aeba3f7bfef752155b&oe=5C83FFE1  " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+    </div>
+	</div>
+	<div class="card">
+	<h2>Samo kod nas-Profesionalni set za reparaciju stakla </h2>
+      <h3 style="color:gray;">Spriječite velike i nepotrebne troškove zamjene stakla!
+</h3>
+     
+	
+  <div class="clear"> 
+          <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/45858281_873636456093949_6549044065122385920_n.jpg?_nc_cat=110&_nc_ht=scontent.ftzl1-1.fna&oh=6a964368d60e51bb0585ea9b726378a7&oe=5C7CD8B5  " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+		  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/45946912_873636479427280_7902372896993968128_n.jpg?_nc_cat=110&_nc_ht=scontent.ftzl1-1.fna&oh=09e97d36e2d8f8deff0d919f21f128ce&oe=5C847D5F " alt="raznevrstevozila" style="height:215px;1width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+		  <img src=" https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/46024653_873636519427276_4700810682923220992_n.jpg?_nc_cat=103&_nc_ht=scontent.ftzl1-1.fna&oh=ef7e33211b4caf77aada0ab8460e4029&oe=5C7FEA89 " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+          <img src=" https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/46191343_875013225956272_4227456448830898176_n.jpg?_nc_cat=100&_nc_ht=scontent.ftzl1-1.fna&oh=44d89efd36430354e602a8eae3be6a50&oe=5C88845D " alt="raznevrstevozila" style="height:215px;width:215px;border-radius:50%;margin-top:20px;clear:left;" >
+
+   </div>
+	
+	</div>
+	
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Izvršite reparaciju na vrijeme </h3>
+	  <h3 style="color:gray;">Spriječite veću štetu </h3>
+     <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/21317744_562299783894286_6000181812316899964_n.jpg?_nc_cat=106&_nc_ht=scontent.ftzl1-1.fna&oh=c312f21075f43e819d4e49953fe74e78&oe=5C87C9FC  " alt="reparacija" style="height:240px;width:270px;" >
+      <p >Ako niste sigurni da li se može uraditi reparacija, pitajte nas! <br>
+																		  <br>
+	     Pozovite nas na <strong>065 600 328 </strong> <br>
+<br>		<div style="color:red;font-size:22px;" class="blink_me"> <STRONG> DOLAZIMO NA VAŠU ADRESU! </STRONG> </div>
+		 <img   src=" https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/44135739_846410098816585_2311135018807721984_n.jpg?_nc_cat=110&_nc_ht=scontent.ftzl1-1.fna&oh=0613712d9647613e5cc54750fbecde24&oe=5C703A5D " alt="dostava" style="height:240px;width:270px;margin-top:20px;" >
+	  </p>
+	  
+    </div>
+    <div class="card" style="margin-top:10px;">
+      <h3>Sinonim smo za povoljne cijene i pouzdan kvalitet usluga</h3>
+ <p style="color:gray;float:right;"> Auto-stakla ''Sale'' je specijalizovano preduzeće sa višegodišnjim iskustvom, koje svojom profesioanlnošću opravdava povjerenje korisnika naših usluga, širom zemlje</p>
+	  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/45233698_864315790359349_8692985911291412480_n.jpg?_nc_cat=104&_nc_ht=scontent.ftzl1-1.fna&oh=2fc46d3d35feed1eab33ddb3c790fbb7&oe=5C8A0C5A " alt="salelogo" style="height:107px;width:120px;" >
+	
+	  <img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/25660417_619071801550417_8598817897313015174_n.jpg?_nc_cat=103&_nc_ht=scontent.ftzl1-1.fna&oh=de703c776bcc63df5e643531fa0c4b38&oe=5C73A3FF " alt="salelogo" style="height:107px;width:120px;" >
+     <p style="color:gray;float:right;">  Profesionalan i obučen tim ljudi, najkvalitetniji alat na tržištu i višegodišnje iskustvo su garancija kvaliteta. Posjetite nas! </P>
+      </p>
+
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+<img src="https://scontent.ftzl1-1.fna.fbcdn.net/v/t1.0-9/18881822_512873322170266_3621015599239864576_n.png?_nc_cat=110&_nc_ht=scontent.ftzl1-1.fna&oh=b8b54e6a8a8c5a507ff5f87a5614f806&oe=5C89FD21" alt="salelogo" style="border-radius:50%;height:5%;width:5%;border:3px solid orange;"
+  
+</div>
+
+
+</body>
+</html>
+
+
